@@ -53,7 +53,7 @@ main() {
             2)
                 while true; do
                     clear
-                    echo -e "Author: "
+                    echo -e "repo: https://github.com/DaniilZinoviev06/illustrator-installer-linux"
 
                     echo -e "\n\e[34m|\e[0m 1 - Back\n"
                     read -p "Enter: " choice
