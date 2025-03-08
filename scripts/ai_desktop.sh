@@ -7,10 +7,10 @@ Version=1.0
 Type=Application
 Name=Illustrator CC 17
 StartupNotify=true
-Comment=Advanced image editing application
+Comment=Vector graphics editor
 Exec=env WINEPREFIX=\"$WINE_PREF_PATH\" wine \"$ILLUSTRATOR\"
 Icon=$HOME/.local/share/icons/icon_ai.png
-StartupWMClass=.exe
+StartupWMClass=illustrator.exe
 "
 
 createDesktopFunc() {
