@@ -9,6 +9,22 @@
   <img alt="Image" src="https://github.com/DaniilZinoviev06/illustrator-installer-linux/blob/master/images/banner.png">
 </div><br>
 
+<div align = center>
+  
+  [![language](https://img.shields.io/badge/language-Shell-001d26?style=for-the-badge&labelColor=%23f38007&color=%232b1f13)](#)
+  [![OS](https://img.shields.io/badge/OS-Linux-001d26?style=for-the-badge&labelColor=%23f38007&color=%232b1f13)](#)
+  [![Requirement](https://img.shields.io/badge/requirement-Wine-001d26?style=for-the-badge&labelColor=%23f38007&color=%232b1f13)](#)
+  [![Requirement](https://img.shields.io/badge/requirement-curl-001d26?style=for-the-badge&labelColor=%23f38007&color=%232b1f13)](#)
+  [![GitHub last commit](https://img.shields.io/github/last-commit/DaniilZinoviev06/illustrator-installer-linux?style=for-the-badge&labelColor=%23f38007&color=%232b1f13)](#)
+  [![GitHub License](https://img.shields.io/github/license/DaniilZinoviev06/illustrator-installer-linux?style=for-the-badge&labelColor=%23f38007&color=%232b1f13)](#)
+  [![GitHub Repo stars](https://img.shields.io/github/stars/DaniilZinoviev06/illustrator-installer-linux?style=for-the-badge&labelColor=%23f38007&color=%232b1f13)](#)
+  [![GitHub Created At](https://img.shields.io/github/created-at/DaniilZinoviev06/illustrator-installer-linux?style=for-the-badge&labelColor=%23f38007&color=%232b1f13)](#)
+  [![GitHub repo size](https://img.shields.io/github/repo-size/DaniilZinoviev06/illustrator-installer-linux?style=for-the-badge&labelColor=%23f38007&color=%232b1f13)](#)
+  [![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/DaniilZinoviev06/illustrator-installer-linux/total?style=for-the-badge&labelColor=%23f38007&color=%232b1f13)](#)
+  [![GitHub Release](https://img.shields.io/github/v/release/DaniilZinoviev06/illustrator-installer-linux?style=for-the-badge&labelColor=%23f38007&color=%232b1f13)](#)
+  [![GitHub Release Date](https://img.shields.io/github/release-date/DaniilZinoviev06/illustrator-installer-linux?style=for-the-badge&labelColor=%23f38007&color=%232b1f13)](#)
+</div><br>
+
 <h2 id="about">:scroll: About</h2>
 <p>This script will help you install Illustrator on your Linux distribution using Wine.</p>
 
