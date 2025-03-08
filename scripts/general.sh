@@ -3,7 +3,7 @@
 SCRIPT_FOLDER="$HOME/.illustrator"
 WINE_PREF_PATH="$HOME/.illustrator/ai_prefix"
 SCRIPT_DOWNLOADS="$HOME/.illustrator/ai_downloads"
-ILLUSTRATOR="$WINE_PREF_PATH/drive_c/Program Files/"
+ILLUSTRATOR="$WINE_PREF_PATH/drive_c/Program Files/illustrator_17/IllustratorCC64.exe"
 DESKTOP_FILE="$HOME/.local/share/applications/illustrator.desktop"
 ICON="$(pwd)/images/icon_ai.png"
 DESKTOP_ICON="$HOME/.local/share/icons/icon_ai.png"
@@ -86,7 +86,7 @@ installArchiveFunc() {
                     if [ -f "${SCRIPT_DOWNLOADS}/setup.exe" ]; then
                         show_message_ok "setup.exe exist..."
                     else
-                        tar -xJvf "${SCRIPT_DOWNLOADS}/$1" -C "${SCRIPT_DOWNLOADS}"
+                        tar -xJvf "${SCRIPT_DOWNLOADS}/$1" -C "${SCRIPT_DOWNLOADS}" > /dev/null
                         if [[ $? -ne 0 ]]; then
                             show_message_error "Error when opening archive. Exit..."
                             exit

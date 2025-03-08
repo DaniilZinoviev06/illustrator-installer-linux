@@ -13,8 +13,6 @@ Icon=$HOME/.local/share/icons/icon_ai.png
 StartupWMClass=.exe
 "
 
-# StartupWMClass: i spotted this from Gictorbit. Thanks to him for this
-
 createDesktopFunc() {
     if [ ! -f "$ICON" ]; then
         show_message_bad "\e[93micon_ai.png\e[0m not found..."

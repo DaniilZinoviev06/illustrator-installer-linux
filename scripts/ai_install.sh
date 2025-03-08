@@ -10,13 +10,17 @@ launcherFunc() {
 }
 
 installAIFunc() {
-    local ARCHIVE=""
-    local ARCHIVE_NAME=""
-    local TAR_SHA256=""
+    local ARCHIVE="https://iusearchbtw.isgood.host/files/illustrator_17.tar.xz"
+    local ARCHIVE_NAME="illustrator_17.tar.xz"
+    local TAR_SHA256="587406c49478f87f60ede4492d8cd6a5a9a1714d75e995932db6d685eec62b3a"
 
     mkdir -p "$SCRIPT_DOWNLOADS"
 
     installArchiveFunc "$ARCHIVE_NAME" "$ARCHIVE" "$TAR_SHA256"
+
+    sleep 5
+
+    cp -r "$SCRIPT_DOWNLOADS/illustrator_17" "$WINE_PREF_PATH/drive_c/Program Files"
 
     sleep 5
 
