@@ -10,9 +10,9 @@ launcherFunc() {
 }
 
 installAIFunc() {
-    local ARCHIVE="https://twdl.isgood.host/shr/s5g4d7nijhwy/Illustrator_17.tar.xz"
+    local ARCHIVE="https://twdl.isgood.host/shr/kgwp1zeicspu/illustrator_17.tar.xz"
     local ARCHIVE_NAME="illustrator_17.tar.xz"
-    local TAR_SHA256="587406c49478f87f60ede4492d8cd6a5a9a1714d75e995932db6d685eec62b3a"
+    local TAR_SHA256="4716c4266a39ab894425ddd9f0fb510e9cf13474452badd6be85c5ee71e5db5f"
 
     mkdir -p "$SCRIPT_DOWNLOADS"
 
